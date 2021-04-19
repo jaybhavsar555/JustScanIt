@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentGatewayActivity"
+    android:background="@color/blue">
+
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/UPI"
+      android:layout_width="238dp"
+      android:layout_height="63dp"
+      android:background="@drawable/button_round1"
+      android:text="@string/upi_phonepe_gpay_paytm"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.461"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.351" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/Credit_card"
+      android:layout_width="238dp"
+      android:layout_height="63dp"
+      android:background="@drawable/button_round3"
+      android:text="@string/credit_card"
+      android:textColor="@color/teal_200"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.462"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.535" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/or"
+      android:textColor="@color/orange"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.464"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.446" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pay_using_one_of_them"
+      android:textColor="@color/orange"
+      android:textStyle="italic"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.457"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.189" />
+</androidx.constraintlayout.widget.ConstraintLayout>

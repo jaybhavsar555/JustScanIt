@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.justscanit">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="JustScanIt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JustScanIt"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PaymentGatewayActivity" />
+        <activity android:name=".CardPaymentActivity"></activity>
+        <activity android:name=".SendFeedbackActivity" />
+        <activity android:name=".PhonePeActivity" />
+        <activity android:name=".CustShowProduct" />
+        <activity android:name=".ScanItemActivity" />
+        <activity android:name=".ScanCodeActivitydel" />
+        <activity android:name=".ScanCodeActivitysearch" />
+        <activity android:name=".viewInventoryActivity" />
+        <activity android:name=".deleteitemActivity" />
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name=".ScanCodeActivity" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".MainActivitytp">
+
+        </activity>
+        <activity android:name=".WholesalerRegisterActivity" />
+        <activity android:name=".ShopekeeperRegsiterActivity" />
+        <activity android:name=".CustomerRegisterActivity" />
+        <activity android:name=".WholesalerLoginActivity" />
+        <activity android:name=".ShopekeeperLoginActivity" />
+        <activity android:name=".CustomerLoginActivity" />
+        <activity android:name=".AniActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

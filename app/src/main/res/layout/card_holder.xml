@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+
+    app:cardElevation="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D7D8FA"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_weight="0.33"
+            android:text="@string/product_name"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:layout_weight="0.67"
+            android:text="@string/textview"
+            android:textColor="@color/black" />
+    </LinearLayout>
+<TextView
+    android:layout_height="3dp"
+    android:layout_width="match_parent"
+    android:background="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/product_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.67"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:text="@string/textview"
+            android:textColor="@color/black" />
+    </LinearLayout>
+        <TextView
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="2dp"
+                android:text="@string/product_price"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:text="@string/textview"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <TextView
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/black"/>
+      <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="2dp"
+                android:text="@string/shopname"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:text="@string/textview"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        <TextView
+            android:layout_height="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="2dp"
+                android:text="ShopKeeper Name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ShopKeeper_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:text="@string/textview"
+                android:textColor="@color/black" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/black"/>
+</androidx.cardview.widget.CardView>

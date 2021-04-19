@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanItemActivity"
+    android:background="@color/blue">
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="222dp"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="12dp"
+      android:fontFamily="@font/allura"
+      android:text="@string/scan_items"
+      android:textColor="@color/orange"
+      android:textSize="45sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/searchfield"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.138" />
+
+  <ImageButton
+      android:id="@+id/imageButtonsearch"
+      android:layout_width="58dp"
+      android:layout_height="37dp"
+      android:background="@color/light_blue"
+      android:contentDescription="@string/image"
+      app:layout_constraintBottom_toBottomOf="@+id/searchbtnn"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.895"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.575"
+      app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+      tools:ignore="VectorDrawableCompat" />
+
+  <EditText
+      android:id="@+id/searchfield"
+      android:layout_width="289dp"
+      android:layout_height="35dp"
+
+      android:background="@color/light_blue"
+      android:drawableStart="@drawable/ic_search_black_24dp"
+      android:ems="10"
+      android:hint="@string/search_items"
+      android:importantForAutofill="no"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/recyclerViews"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.221"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.442" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/searchbtnn"
+      android:layout_width="104dp"
+      android:layout_height="41dp"
+      android:text="@string/search"
+      android:textColor="@color/light_blue"
+      android:background="@drawable/button_round1"
+      app:layout_constraintBottom_toTopOf="@+id/recyclerViews"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.433"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/searchfield"
+      app:layout_constraintVertical_bias="0.46" />
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerViews"
+      android:layout_width="410dp"
+      android:layout_height="420dp"
+      android:background="@color/light_blue"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0">
+
+  </androidx.recyclerview.widget.RecyclerView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

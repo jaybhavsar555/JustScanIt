@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">JustScanIt</string>
+    <string name="justscanit">JustScanIt</string>
+    <string name="customer">Customer</string>
+    <string name="shopekeeper">Shopekeeper</string>
+    <string name="wholesaler">Wholesaler</string>
+
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+
+    <string name="enter_emailid">Enter EmailID</string>
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="you_have_already_account">You have already Account??</string>
+    <string name="logIn">LogIn</string>
+    <string name="logout">LogOut</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="to_reset_password_enter_your_email_press_the_button_and_check_mail_to_follow_instruction">To reset password, enter your email, press the button and check mail to follow instruction.</string>
+    <string name="your_email_here">Your email here</string>
+
+    <string name="back">BACK</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="shopname">ShopName</string>
+    <string name="license_number">License Number</string>
+    <string name="enter_email_id">Enter Email ID</string>
+
+
+    <string name="already_have_account">Already Have Account??</string>
+
+    <string name="distribution_id">Distribution ID</string>
+    <string name="wholesaler_name">Wholesaler Name</string>
+    <string name="company_name">Company Name</string>
+    <string name="shopkeepername">ShopkeeperName</string>
+
+    <string name="shop_address">Shop Address</string>
+    <string name="add_item">Add Item</string>
+
+    <string name="bar_qr_code_number">Bar/QR Code No. will appear here</string>
+    <string name="_10">Price(₹)</string>
+    <string name="number">Number</string>
+    <string name="price">Price</string>
+    <string name="category">Category</string>
+
+
+    <string name="product">Product</string>
+    <string name="product_details">Product Details</string>
+    <string name="welcome">Welcome,</string>
+
+    <string name="add_product">Add Product</string>
+    <string name="view_product">View Product</string>
+    <string name="todo">TODO</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="search">Search</string>
+    <string name="search_items">Search Items</string>
+    <string name="scan_items">Scan Items</string>
+    <string name="image">TODO</string>
+    <string name="name">Name</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="email">Email:</string>
+
+    <string name="code_number">Code Number</string>
+    <string name="delete_items">Delete Items</string>
+    <string name="item_to_delete">Item to Delete:</string>
+    <string name="scan_bar_qr_code">Scan Bar/QR Code</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="no_of_items">No of Items =</string>
+
+    <string name="total_sum">Total sum = ₹</string>
+    <string name="_0">0</string>
+    <string name="item_barcode">Item Barcode</string>
+
+    <string name="item_name">Item Name</string>
+    <string name="textview">TextView</string>
+    <string name="product_price">Product Price $</string>
+
+    <string name="item_category">Item Category</string>
+
+    <string name="product_category">Product Category</string>
+
+    <string name="payee_merchant_code_4_digit_code">Payee Merchant Code(4 Digit Code)</string>
+    <string name="vpa_enter_upi">VPA(Enter UPI)</string>
+    <string name="payee_name">Payee Name</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="description">Description</string>
+    <string name="transaction_ref_id">Transaction Ref ID</string>
+    <string name="amount_xx_xx">Amount (XX.XX)</string>
+    <string name="upi_app">UPI App :</string>
+    <string name="amazonpay">AmazonPay</string>
+    <string name="bhim_upi">BHIM UPI</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="phonepe">PhonePe</string>
+    <string name="paytm">PayTm</string>
+    <string name="pay_with_upi">Pay with UPI</string>
+    <string name="click_above_button_to_pay">Click above button to Pay</string>
+    <string name="feedback">FeedBack</string>
+    <string name="send">Send</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="card_form">card_form</string>
+    <string name="upi_phonepe_gpay_paytm">UPI(PhonePe/GPay/Paytm)</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="or">Or</string>
+    <string name="pay_using_one_of_them">Pay using One of them</string>
+
+
+    <string name="j">J</string>
+    <string name="just">Just</string>
+    <string name="shop_keeper">SHOP KEEPER</string>
+    <string name="whole_saler">whole saler</string>
+    <string name="product_barcode">Product Barcode</string>
+
+    <string name="product_type">Product Type</string>
+    <string name="no_of_products">No.of Products=</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="product_name">Product Name</string>
+    <string name="products_to_be_deleted">Products to be Deleted</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="delete_product1">DELETE Product</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="about_us">About us</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="customer_registration">Customer Registration</string>
+    <string name="shopkeeper_registration">Shopkeeper Registration</string>
+    <string name="wholesaler_registration">Wholesaler Registration</string>
+    <string name="shopkeeper_registration1">ShopKeeper Registration</string>
+    <string name="wholesaler_login">Wholesaler Login</string>
+    <string name="shopkeeper_login">ShopKeeper Login</string>
+    <string name="scanit">ScanIt</string>
+    <string name="scan_the_barcode_qr_code">Scan the Barcode/QR Code:</string>
+    <string name="product_to_be_deleted">Product to be Deleted</string>
+    <string name="delete_product24">DELETE Product</string>
+
+
+</resources>
