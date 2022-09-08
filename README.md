@@ -12,6 +12,6 @@ There are various method for a user to campare and get the best product value fr
 They are not just scanning but also get the whole product elicitation in that barcode as well.
 
 UI:
-![Uploading image.png…]()
+![Uploading image.png…](u1.png)
 
 
