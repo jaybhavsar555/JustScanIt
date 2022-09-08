@@ -11,7 +11,5 @@ buying their products.
 There are various method for a user to campare and get the best product value from the different seller. 
 They are not just scanning but also get the whole product elicitation in that barcode as well.
 
-UI:
-![Uploading image.png…](u1.png)
 
 
