@@ -8,7 +8,7 @@ It’s an open-source software and provides feedback to users.
 Various shopkeeper sells different product by this scanning app user will experienced new enormies while 
 buying their products.
 
-There are various method for a user to campare and get the best product value from the different seller. 
+There are various method for a user to compare and get the best product value from the different seller. 
 They are not just scanning but also get the whole product elicitation in that barcode as well.
 
 
